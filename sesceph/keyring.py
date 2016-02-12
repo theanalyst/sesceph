@@ -250,7 +250,7 @@ class keyring_implementation_mon(keyring_implementation_base):
                 "--create-keyring",
                 path,
                 "--add-key",
-                key
+                key,
                 "-n",
                 self.keyring_name,
                 "--cap",
